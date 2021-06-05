@@ -7,7 +7,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <title>Shane Richards</title>
-      <div className="bg-gray-200">
+      <section className="bg-gray-200">
         <CenterContainer>
           <div className="grid grid-cols-3 py-12">
             <div className="col-span-2 flex flex-col justify-center pr-20">
@@ -22,7 +22,14 @@ const IndexPage = () => {
             </div>
           </div>
         </CenterContainer>
-      </div>
+      </section>
+      <section className="my-14">
+        <CenterContainer>
+          <h3 className="text-gray-800 font-mono font-bold text-4xl border-b-4 border-gray-800 mb-6 pb-2">
+            Projects.
+          </h3>
+        </CenterContainer>
+      </section>
     </Layout>
   )
 }
