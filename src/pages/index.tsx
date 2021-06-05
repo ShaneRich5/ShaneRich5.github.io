@@ -36,7 +36,7 @@ const projects = [
   },
   {
     emoji: "🖼️",
-    title: "Photoshop Battles",
+    title: "PS Battles",
     description: "Photo competition from the best subreddit.",
     link: "https://github.com/ShaneRich5/photoshop-battles",
   },
@@ -92,7 +92,7 @@ const IndexPage = () => {
                 <a href={project.link} target="_blank">
                   <h4 className="text-2xl flex">
                     <span className="mr-2">{project.emoji}</span>
-                    <span className="underline font-semibold text-gray-500">{project.title}</span>
+                    <span className="underline font-bold hover:text-gray-500 text-gray-700">{project.title}</span>
                   </h4>
                 </a>
                 <p className="text-xl text-gray-400 mt-2">{project.description}</p>

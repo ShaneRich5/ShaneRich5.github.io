@@ -9,7 +9,7 @@ const navigationLinks = [
 
 const Navbar = () => {
   return (
-    <header className="max-w-4xl mx-auto my-8">
+    <header className="max-w-4xl mx-auto my-8  px-8">
       <div className="flex items-center justify-between">
         <a href="/">
           <div className="flex items-center space-x-2">
