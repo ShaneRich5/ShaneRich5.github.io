@@ -7,5 +7,7 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: ['gatsby-plugin-postcss'],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+  ],
 }
