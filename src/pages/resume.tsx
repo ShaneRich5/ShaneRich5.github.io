@@ -12,6 +12,11 @@ const ResumePage = () => {
             <span className="font-bold text-5xl">Shane Richards</span>
           </h3>
           <p className="text-2xl text-gray-500">Software Engineer in New York, NY</p>
+          <ul>
+            <li>Email</li>
+            <li>Github</li>
+            <li>Linkedin</li>
+          </ul>
         </CenterContainer>
       </section>
     </Layout>
