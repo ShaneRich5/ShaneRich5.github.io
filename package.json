@@ -13,8 +13,8 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public -b main",
-    "deploy-ci": "gatsby build --prefix-paths && gh-pages -d public -r https://$GH_TOKEN@github.com/ShaneRich5/shanerich5.github.io.git"
+    "deploy": "gatsby build && gh-pages --dest /docs -d public -b main",
+    "deploy-ci": "gatsby build --prefix-paths && gh-pages --dest /docs -d /public -r https://$GH_TOKEN@github.com/ShaneRich5/shanerich5.github.io.git"
   },
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.2.1",
