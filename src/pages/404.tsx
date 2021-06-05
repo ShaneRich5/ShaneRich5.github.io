@@ -12,7 +12,7 @@ const NotFoundPage = () => {
           <h3 className="text-gray-800 font-mono my-6">
             <span className="font-bold text-5xl">404</span>
           </h3>
-          <p className="text-2xl text-gray-500">Page Not Found. Go <Link to="/" className="underline text-blue-600">home</Link>.</p>
+          <p className="text-2xl text-gray-500">Page Not Found. Go <Link to="/" className="underline hover:text-gray-400">home</Link>.</p>
         </CenterContainer>
       </section>
     </Layout>
