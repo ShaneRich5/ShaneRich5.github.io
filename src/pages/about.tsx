@@ -1,16 +1,15 @@
 import React from "react"
-import Layout from "../components/layout"
 import CenterContainer from "../components/center-container"
+import Layout from "../components/layout"
 
-const IndexPage = () => {
+const AboutPage = () => {
   return (
     <Layout>
-      <title>Shane Richards</title>
       <CenterContainer>
-        Home
+        <h1>About Page</h1>
       </CenterContainer>
     </Layout>
   )
 }
 
-export default IndexPage
+export default AboutPage
